@@ -1296,6 +1296,7 @@ section.dark.page-header ul.page-options a {
     right: 0;
     z-index: 1000;
     font-size: 14px;
+    font-family: 'Roboto Slab',sans-serif;
     background-color: #fff;
     border-bottom: rgba(0, 0, 0, 0.05) 1px solid;
 
@@ -9081,7 +9082,7 @@ section.dark-2.alternate {
     background: -webkit-linear-gradient(top, #555555 0%, #313131 100%);
     background: -o-linear-gradient(top, #555555 0%, #313131 100%);
     background: -ms-linear-gradient(top, #555555 0%, #313131 100%);
-    background: linear-gradient(to bottom, #555555 0%, #313131 100%);
+    background: linear-gradient(to bottom, #0a65a0 0%, #A94545 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#313131',GradientType=0 );
 }
 #footer > .container {

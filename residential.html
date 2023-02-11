@@ -24,6 +24,9 @@
 		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
 
+		<!-- AGENTS CSS -->
+		<link href="assets/css/agents.css" rel="stylesheet" type="text/css" />
+
 		<!-- PAGE LEVEL SCRIPTS -->
 		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
 		<link href="assets/css/color_scheme/red.css" rel="stylesheet" type="text/css" id="color_scheme" />
@@ -465,6 +468,35 @@
 			</div>
 			<!-- /MODAL -->
 
+			<!-- AGENTS -->
+
+			<div>
+				<label for="sortselect">Sort by:</label>
+				<select id="sortselect">
+					<option value="select">--- Select ---</option>
+					<option value="first_name">First Name</option>
+					<option value="last_name">Last Name</option>
+				</select>
+			  
+				<label for="sortorder">Order:</label>
+				<select id="sortorder">
+					<option value="select">--- Select ---</option>
+					<option value="ascending">Ascending</option>
+					<option value="descending">Descending</option>
+				</select>
+				
+				<label for="regionselect">Region:</label>
+				<select id="regionselect">
+					<option value="select">--- Select ---</option>
+					<option value="north">North</option>
+					<option value="south">South</option>
+				</select>
+			</div>
+			  
+			  <div id="tableContainer"></div>
+			  
+			
+			<!-- /AGENTS -->
 
 			<!-- FOOTER -->
 			<footer id="footer">
@@ -534,6 +566,9 @@
 
 		<!-- SCRIPT -->
 		<script src="assets/js/scripts.js"></script>
+
+		<!-- RESIDENTIAL FOR AGENTS -->
+		<script src="assets/js/residental.js"></script>
 
 		<!-- OPEN MODALS SCRIPT -->
 		<script type="text/javascript">

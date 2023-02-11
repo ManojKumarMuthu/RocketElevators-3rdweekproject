@@ -221,3 +221,32 @@ buildingType_select.addEventListener("change", function () {
         });
     }
 });
+
+const backgroundColor = document.getElementById('color1');
+const backgroundColor2 = document.getElementById('color2');
+const Color3 = document.getElementById('color3');
+
+buildingType_select.addEventListener("change", function () {
+    if (buildingType_select.value === "residential") {
+        backgroundColor.style.backgroundColor = "#0a65a0";
+        backgroundColor2.style.backgroundColor = "#0a65a0";
+        Color3.style.color = "#3F3F3F";
+    } 
+    else if (buildingType_select.value === "commercial") {
+        backgroundColor.style.backgroundColor = "#A94545";
+        backgroundColor2.style.backgroundColor = "#A94545";
+        Color3.style.color = "color:rgb(10, 101, 160)";
+    }
+    else if (buildingType_select.value === "industrial") {
+        backgroundColor.style.backgroundColor = "#888";
+        backgroundColor2.style.backgroundColor = "#888";
+        Color3.style.color = "color:rgb(10, 101, 160)";
+    }
+    else {
+        backgroundColor.style.backgroundColor = "";
+        backgroundColor2.style.backgroundColor = "";
+        Color3.style.color = "color:rgb(10, 101, 160)";
+    }
+});
+
+
